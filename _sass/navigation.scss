@@ -1,0 +1,23 @@
+nav {
+  max-width:980px;
+  margin:2rem auto 0;
+  padding:0 1rem;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+
+  a {
+    font-size:1.5rem;
+    margin: 0 2rem;
+    text-decoration:none;
+    transition:.2s ease color;
+
+    &:visited {
+      color:#000;
+    }
+
+    &:hover {
+      color:#666;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  
+  card {
+    width:100%;
+    padding:1rem;
+
+    p {
+      text-align:center;
+    }
+
+    @media (min-width:$screen-md) {
+      width:50%;
+
+      &.fullwidth {
+        width:100%;
+      }
+    }
+  }
+}
+
+img {
+  max-width:100%;
+}

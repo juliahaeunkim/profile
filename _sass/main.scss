@@ -1,0 +1,31 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#9cd4e6;
+    box-sizing:border-box;
+    padding:0;
+    border:0;
+    height:100%;
+    width:100%;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height:1.2;
+    font-family: 'Neuton';
+    font-weight:400;
+}
+
+h1 {
+    font-size:4rem;
+}
+
+h2 {
+    font-size:2rem;
+}
+
+p {
+    font-size:16pt;
+    line-height:1.45;
+}
