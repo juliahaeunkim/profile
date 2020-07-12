@@ -10,9 +10,11 @@ h2 { font-size: 2rem; }
 
 p { font-size: 16pt; line-height: 1.45; }
 
+img { max-width: 100%; }
+
 nav { max-width: 980px; margin: 2rem auto 0; padding: 0 1rem; display: flex; flex-wrap: wrap; justify-content: center; }
 
-nav a { font-size: 1.5rem; margin: 0 2rem; text-decoration: none; transition: .2s ease color; }
+nav a { color: #000; font-size: 1.5rem; margin: 0 2rem; text-decoration: none; transition: .2s ease color; }
 
 nav a:visited { color: #000; }
 
@@ -39,6 +41,10 @@ section .block--header { text-align: center; font-size: 3rem; }
 @media (min-width: 980px) { .posts card { width: 50%; } .posts card.fullwidth { width: 100%; } }
 
 img { max-width: 100%; }
+
+img.image--small { max-width: 420px; margin: 0 auto; display: block; text-align: center; }
+
+img.image--medium { max-width: 640px; margin: 0 auto; display: block; text-align: center; }
 
 footer { margin-top: 6rem; text-align: center; }
 
